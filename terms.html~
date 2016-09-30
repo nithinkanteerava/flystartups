@@ -1,0 +1,792 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terms | Perk.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- this piece of code will be used to render assets from our server while CDN is down -->
+<script type="text/javascript" src="https://cdn2.perk.com/assets/js/cdn_check.js"></script>
+
+	<!-- don't change the below URL to use CDN (it should always be relative) -->
+    <script type="text/javascript" src="/assets/js/cdn_swapper.js"></script>
+
+    <!-- styles -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn2.perk.com/htmlperk/perktemplate/css/odometer.css" />
+    <link rel="stylesheet" href="https://cdn2.perk.com/htmlperk/perktemplate/css/animate.css" />
+
+    <!-- scritps -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/assets/js/api.js?v=2.1.3"></script>
+
+    <script type="text/javascript" src="https://cdn2.perk.com/assets/js/html.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/assets/js/autosuggest_dropdown.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/htmlperk/scripts/google_analytics.js"></script>
+
+    <script type="text/javascript" src="https://cdn2.perk.com/htmlperk/perktemplate/js/jquery.lettering-0.6.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/htmlperk/perktemplate/js/odometer.min.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/htmlperk/perktemplate/js/viewportchecker.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/htmlperk/perktemplate/js/perk.js?v=2.1.6"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/assets/js/validations.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/assets/js/popup.js"></script>
+    <script type="text/javascript" src="https://cdn2.perk.com/assets/js/branch_io_sms.js"></script>
+    
+
+    
+
+    <link rel="stylesheet" href="https://cdn2.perk.com/assets/css/popup.css" />
+    <link rel="stylesheet" href="https://cdn2.perk.com/htmlperk/perktemplate/css/style.css?v=2.3.1" />
+    <link rel="stylesheet" type="text/css" href="https://cdn2.perk.com/assets/css/signup_overlay_new.css">
+
+    <link href="https://cdn2.perk.com/assets/css/password_meter.css" rel="stylesheet" type="text/css" />   
+    <script type="text/javascript" src="https://cdn2.perk.com/assets/js/password_meter.js"></script>
+    
+</head>
+<body>
+        <header>
+        <div class="wrapper">
+            <button class="c-hamburger c-hamburger--htx">
+                <span>toggle menu</span>
+             </button>
+            <a href="/home" class="logo"><img src="https://cdn2.perk.com/htmlperk/perktemplate/images/perk-logo.png" alt="Perk"></a>
+                        <div class="user">
+                <div class="user-name">
+                    <span title="You">You</span>
+                </div>
+                <div class="user-img">
+                    	<img src="https://cdn2.perk.com/htmlperk/perktemplate/images/user.png" alt="">
+	<!-- <img src="https://cdn2.perk.com/htmlperk/img/account/placeholder.png" width="105" height="88" alt="" /> -->
+                </div>
+                <div class="profile-details">
+                    <ul>
+                                                    <li><a href="/" class="login">Log In</a></li>
+                            <li><a href="/" class="signup">Sign Up</a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="perk-star">
+            </div>
+        </div>
+        <div id="perk_protocol" style="display: none;" data-protocol="https:"></li>
+    </header>
+
+    <div class="wrapper">
+        
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li class="home "><a href="/home"><span>Home</span></a></li>
+                <li class="our-apps "><a href="/apps"><span>Our Apps</span></a></li>
+                <li class="earn has-sub "><a href="/offers"><span>Earn Points</span></a>
+                    <ul>
+                        <li><a href="http://www.perk.tv/?utm_source=perkcom_nav&utm_medium=web&utm_content=PageHeader&utm_campaign=PerkSite" target="_blank"><span>Watch Perk.TV</span></a></li>
+                                                    <li><a href="/offers"><span>Complete Offers</span></a></li>
+                                                <li><a href="/shop"><span>Shop</span></a></li>
+                    </ul>
+                </li>
+                <li class="sweeps "><a href="/sweepstakes"><span>Sweepstakes</span></a></li>
+                <li class="rewards has-sub ">
+                    <a href="#"><span>Rewards</span></a>
+                    <ul>
+                        <li><a href="/rewards"><span>All Rewards</span></a></li>
+                        <li><a href="/plastik"><span>Perk Plastik</span></a></li>
+                    </ul>
+               </li>
+                <li class="winners "><a href="/winners"><span>Winners</span></a></li>
+                <li class="about has-sub active"><a href="#"><span>About Perk</span></a>
+                    <ul>
+                        <li><a href="/about"><span>About</span></a></li>
+                        <li><a href="/media"><span>Perk Media</span></a></li>
+                        <li><a href="/terms"><span>Terms</span></a></li>
+                        <li class='last'><a href="/privacy"><span>Privacy</span></a></li>
+                    </ul>
+                </li>
+                <li class="investors last"><a href="http://ir.perk.com/" target="_blank">Investors</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <!-- Actual page starts here -->
+            <h1 class="title">Terms and Conditions</h1>
+<p>Perk is aimed at providing the best rewards program on Earth ("Service"). As such, it's worth noting a few major items:</p>
+<ol>
+<li><em>By installing any app or creating a Perk account or Logging In, you acknowledge and agree to Perk collecting information on the apps installed on a your device. This information may be used to ensure that Perk is able to promote relevant apps and offers.</em></li>
+<li><em>Members are not permitted to attempt "gaming" or "hacking" the Perk program in any way.</em></li>
+<li><em>Members will not, under any circumstances, encourage other members or any other persons to hack or game the Perk program including via online blogs, forums, groups, etc.</em></li>
+<li><em>Members are permitted to create one account per household. Multiple accounts via the same IP will require you to provide Government Identification in order to verify other members in the same household</em></li>
+<li><em>Members will not post referral links in an attempt to trick members or any other persons through deceptive means, inaccurate descriptions, fake earning opportunities or other questionable methods as determined by the Perk staff</em></li>
+<li><em>Perk at its sole discretion will and can cancel or remove points from your account or suspend your account entirely if Perk has reasons to believe that rewards were earned through means that are against the Perk Terms &amp; Conditions as well as the spirit of the guidelines. Examples of abuse that Perk's automated technology will flag and will not be tolerated include: extended inactivity, software that attempts to manipulate the program in any way, and app usage anomalies outside of normal behavior patterns.</em></li>
+<li><em>Violating any of these terms or any of the terms below will mean immediate revocation of earned points &amp; rewards and potentially means being blacklisted from Perk in perpetuity.</em></li>
+</ol>
+<p> &nbsp;</p>
+<h3>THESE TERMS AND CONDITIONS (&quot;AGREEMENT&quot;) GOVERN YOUR USE OF THE SOFTWARE.</h3>
+
+<p>Perk is pleased to provide and maintain our product (the "<em>Software</em>"). Except as otherwise indicated by Perk, the Software includes the Perk mobile apps, tablet apps and any other versions of our product and any updates, new versions or new releases of the product. Perk’s software also include the desktop web browser and browser add-ons for Chrome &amp; Firefox.</p>
+<p>Perk is managed under the creative commons license. More about Creative Commons can be learned about here: <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">http://creativecommons.org/licenses/by/3.0/</a></p>                                     
+<p>Perk's browser is built on the Chromium Open Source project. More about Chromium and the copyrights and conditions can be learned about here: <a href="http://src.chromium.org/viewvc/chrome/trunk/src/LICENSE" target="_blank">http://src.chromium.org/viewvc/chrome/trunk/src/LICENSE</a></p>
+<p>Copyright (c) 2016 The Chromium Authors. All rights reserved.</p>
+
+<h4>ACCESSING THE SERVICE</h4>
+<p>In order access apps or website, you need a compatible device. You also need access to the Internet through a mobile data plan or an Internet subscription. You are solely responsible for paying any service fees associated with any such access (including data charges). You must provide all equipment, software and access necessary to connect to our service. Our service is not available on all operating systems, devices, or locations. You should note that depending on your device, your device might not be able to access our service while you are using other features of your device.</p>
+<p>In order to ensure the availability and quality of our service for all of our users, by accessing our service, you agree that your device and/or software does not disturb or interfere with our service, including our mobile apps, our tablet apps, or our website. If we suspect that any equipment or software is causing interference with our service, we reserve the right to immediately disconnect that equipment or software from our service, and we reserve the right to immediately suspend or terminate your further use of our service. If any upgrade to the service requires changes in your equipment or software, and you wish to continue using our service, it will be your responsibility to make these changes at your own expense. Any additional features that augment or enhance our service will be subject to these terms and conditions. You agree to comply with all applicable laws in your use of our service.</p>
+<p>Perk is willing to license the Software to you only upon the condition that you accept all the terms contained in this Agreement. You indicate your acceptance of this Agreement by clicking on the "I Agree" button (if one appears), or simply by downloading, installing or using the Software. By doing any of these actions you have indicated that you understand this Agreement and accept all of its terms. If you are accepting the terms of this Agreement on behalf of a company or other legal entity, you represent and warrant that you have the authority to bind that company or other legal entity to the terms of this Agreement, and, in such event, "you" and "your" will refer to that company or other legal entity. If you are under the age of majority in your jurisdiction of residence, you must have the agreement of your parent/legal guardian to this Agreement on your behalf. If you do not accept all the terms of this Agreement, then Perk is unwilling to license the Software to you, and you may not use it, and you must immediately remove the Software from any computers or devices upon which you have downloaded or installed it.</p>
+
+<ol>
+    <li><em>User Representations and Warranties.</em> By using the Software, you represent, warrant and covenant that you: (i) shall use the Software only as set forth in these Terms of Service; (ii) have the power and authority to enter into and be bound by the Terms of Service; and (iii) are thirteen years of age or older. If you are under the age of 13, you are not allowed to use the Software. Perk, the Perk Rewards Platform, and Perk points are only available in the United States, Canada (excluding Quebec), UK, Australia, New Zealand, and India. Any points earned outside of the locations listed are not eligible for redemption. Perk is working on getting Perk to your country so bear with us!</li>
+
+    <li><em>Embedded Reporting; Privacy.</em> You acknowledge that the Software contains automated reporting routines that will automatically identify and analyze certain aspects of use and performance of the Software and the systems with which the Software is used, as well as the operator and operating environment (including problems and issues that arise in connection therewith), and you hereby consent to the Software's sending such data to Perk. Perk will be free to use for development, diagnostic, and corrective purposes any data and information it so collects relating to diagnosis, problems, systems, performance, use, or functionality. Please see Perk’s <a href="/perkstatic/privacy">Privacy Policy</a> (which is incorporated into this Agreement by reference) for more information and notices concerning Perk’s collection and use of your personal information, including how to opt out of collection of this information.</li>
+
+    <li><em>Information sharing.</em> You acknowledge that the Software contains features designed to share select sites (URLs) you browse and other information. In some cases, sharing is explicitly invoked by you (e.g., when you click the Share button). You also acknowledge and agree that your purchase information is shared between Perk partner stores and Perk for the purpose of maximizing your rewards and improving the Perk service. Perk also gathers data around the usage of its mobile apps including but not limited to geo-location. To the extent permitted by law, Perk reserves the right to use any data collected, explicitly or implicitly, in any form or fashion that Perk decides.</li>
+
+    <li><em>Grant of License.</em> Subject to your compliance with the terms and conditions of this Agreement, Perk grants you a revocable, non-exclusive and non-transferable license to install and use the executable form of the Software on an unlimited number of computers or devices which are owned or controlled by you.  Furthermore, with respect to any Windows Store Sourced Application (defined below), you will only use the Windows Store Sourced Application (i) on a Microsoft-branded product that runs the operating system software provided by Microsoft; and (ii) as permitted by the "Usage Rules" set forth in the Windows Store Terms of Service. Perk reserves all rights in the Software not expressly granted to you in this Agreement. You also agree to abide by the rules of Windows Store and the permitted "Usage Rules" defined by Microsoft.</li>
+
+    <li><em>Restrictions.</em> Except as expressly specified in this Agreement, you may not: (a) copy or modify the Software; (b) transfer, sublicense, lease, lend, rent, or otherwise distribute the Software to any third party; or (c) make the functionality of the Software available to other users. You acknowledge and agree that portions of the Software, including, without limitation, the source code and the specific design and structure of individual modules or programs, constitute the intellectual property of or contain trade secrets of Perk and its licensors. Accordingly, you agree not to disassemble, decompile, or otherwise reverse engineer the Software, in whole or in part, or permit or authorize a third party to do so, except to the extent such activities are expressly permitted by law notwithstanding this prohibition.</li>
+
+    <li><em>Ownership.</em> The Software is licensed, not sold. You own the media on which the Software is recorded (if any was provided to you), but Perk retains ownership of the copy of the Software itself, including all intellectual property rights therein, even if Perk incorporates any Feedback (defined below) into subsequent versions of the Software or otherwise uses such Feedback. The Software is protected by United States, and Canadian copyright law and international treaties. You will not delete or in any manner alter the copyright, trademark, and other proprietary rights notices or markings appearing on the Software as delivered to you.</li>
+
+    <li><em>External Content.</em> Perk includes many features that are designed to allow you to import and share content from other parts of the web that are important to you (such as your social network profile, friends, and contact lists) and gives you easy access to that information. You hereby grant Perk a worldwide, non-exclusive, royalty-free, sublicenseable, and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform this content for the sole purpose of providing you with these features, and you affirm, represent, and warrant that you own or have the necessary licenses, rights, and consents to grant this license to Perk. You retain copyright and any other rights you already hold to content you submit, post or display through the Software. Furthermore, you understand that all content (without limitation, text, data files, web pages, software, extensions, audio and video files, and images) which you may have access to through the Software is the responsibility of the person or entity from which the content originated and not the responsibility of Perk. You understand that the Software may allow you to access content that is offensive or objectionable to you and that in this respect you use the Software at your own risk</li>
+
+    <li><em>Updates and Upgrades; No Obligation.</em> Perk is not obligated to maintain or support the Software, or to provide you with updates, upgrades or services related thereto. You acknowledge that Perk may from time to time in its sole discretion, issue or require updates and upgrades to the Software, and you expressly agree that Perk may automatically update or upgrade the version of the Software that you are using on your computer or device, either automatically or as a result of your request. These updates or upgrades may be designed to fix bugs, security issues, improve performance, add, remove, or update functionality, and generally improve the Software. You consent to such updating or upgrading on your computer or device, and agree that the terms and conditions of this Agreement will apply to all such updates or upgrades.</li>
+
+    <li><em>Open-Source Software.</em> The Software is distributed with certain independent code that is licensed under open source licenses ("Open Source Code") and the Open Source Code is licensed to you in accordance with the applicable open source licenses. To the extent that any of the terms and conditions of this Agreement conflict with any such open source licenses, the conflicting terms and conditions will not apply to the corresponding Open Source Code. Please contact us for important information regarding this Software.</li>
+
+    <li><em>Software from Windows Store.</em> The following applies to any Software accessed through or downloaded from the Windows Store ("Windows Store Sourced Application"):
+        <ul style="list-style-type:circle;">
+            <li>You acknowledge that: (i) this Agreement is concluded between you and Perk only, and not Microsoft; and (ii) as between Perk and Microsoft, Perk is solely responsible for the Windows Store Sourced Application and content therein. Your use of the Windows Store Sourced Application must comply with the applicable Windows Store Terms of Service.</li>
+            <li>You acknowledge that Microsoft have no obligation whatsoever to furnish any maintenance and support services with respect to the Windows Store Sourced Application.</li>
+            <li>In the event of any failure of the Windows Store Sourced Application to conform to any applicable warranty, you may notify said store in order to refund the purchase price for the Windows Store Sourced Application to you and, to the maximum extent permitted by applicable law, Microsoft will have no other warranty obligation whatsoever with respect to the Windows Store Sourced Application, and, as between Perk and Microsoft, any other claims, losses, liabilities, damages, costs or expenses attributable to any failure to conform to any warranty will be Perk’s sole responsibility.</li>
+            <li>You and Perk acknowledge that, as between Perk and Microsoft, Microsoft is not responsible for addressing any claims by you or any third party relating to the Windows Store Sourced Application or your possession and use of the Windows Store Sourced Application, including, but not limited to: (i) product liability claims; (ii) any claim that the Windows Store Sourced Application fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection or similar legislation.</li>
+            <li>You and Perk acknowledge that, in the event of any third party claim, that the Windows Store Sourced Application or your possession and use of that Windows Store Sourced Application infringes that third party’s intellectual property rights, as between Perk and Microsoft, you, not Microsoft, will be solely responsible for the investigation, defense, settlement and discharge of any such intellectual property infringement claim to the extent required by this Agreement.</li>
+            <li>You and Perk acknowledge and agree that Microsoft and Microsoft’s subsidiaries, are third party beneficiaries of this Agreement as related to your license of the Windows Store Sourced Application, and that, upon your acceptance of the terms and conditions of this Agreement, Microsoft will have the right (and will be deemed to have accepted the right) to enforce this Agreement as related to your license of the Windows Store Sourced Application against you as a third party beneficiary thereof.</li>
+            <li>Without limiting any other terms of this Agreement, you must comply with all applicable third party terms of agreement when using the Windows Store Sourced Application.</li>
+            <li>If you have any questions, complaints or claims with respect to any Windows Store Sourced Application, you may contact Perk by emailing us at <a href="mailto:support@perk.com">support@perk.com</a>.</li>
+        </ul>
+    </li>
+    <li><em>Gracenote End User License Agreement.</em> The following applies to Perk users interacting with Live TV features and functionality within Perk TV applications.
+        <ul style="list-style-type:circle;">
+            <li>This application or device contains software from Gracenote, Inc. of Emeryville, California ("Gracenote"). The software from Gracenote (the "Gracenote Software") enables this application to perform disc and/or file identification and obtain music-related information, including name, artist, track, and title information ("Gracenote Data") from online servers or embedded databases (collectively, "Gracenote Servers") and to perform other functions. You may use Gracenote Data only by means of the intended End User functions of this application or device.</li>
+            <li>This application or device may contain content belonging to Gracenote’s providers. If so, all of the restrictions set forth herein with respect to Gracenote Data shall also apply to such content and such content providers shall be entitled to all of the benefits and protections set forth herein that are available to Gracenote. You agree that you will use Gracenote Data, the Gracenote Software, and Gracenote Servers for your own personal, non-commercial use only. You agree not to assign, copy, transfer or transmit the Gracenote Software or any Gracenote Data to any third-party. YOU AGREE NOT TO USE OR EXPLOIT GRACENOTE DATA, THE GRACENOTE SOFTWARE, OR GRACENOTE SERVERS, EXCEPT AS EXPRESSLY PERMITTED HEREIN.</li>
+            <li>You agree that your non-exclusive license to use the Gracenote Data, the Gracenote Software, and Gracenote Servers will terminate if you violate these restrictions. If your license terminates, you agree to cease any and all use of the Gracenote Data, the Gracenote Software, and Gracenote Servers. Gracenote reserves all rights in Gracenote Data, the Gracenote Software, and the Gracenote Servers, including all ownership rights. Under no circumstances will Gracenote become liable for any payment to you for any information that you provide. You agree that Gracenote may enforce its rights under this Agreement against you directly in its own name.</li>
+            <li>The Gracenote service uses a unique identifier to track queries for statistical purposes. The purpose of a randomly assigned numeric identifier is to allow the Gracenote service to count queries without knowing anything about who you are. For more information, see the web page for the Gracenote Privacy Policy for the Gracenote service.</li>
+            <li>The Gracenote Software and each item of Gracenote Data are licensed to you AS IS and AS AVALIBLE. Gracenote makes no representations or warranties, express or implied, regarding the accuracy of any Gracenote Data from the Gracenote Servers. Gracenote reserves the right to delete data from the Gracenote Servers or to change data categories for any cause that Gracenote deems sufficient. No warranty is made that the Gracenote Software or Gracenote Servers are error-free or that functioning of Gracenote Software or Gracenote Servers will be uninterrupted. Gracenote is not obligated to provide you with new, enhanced or additional data types or categories that Gracenote may provide in the future, and is free to discontinue its services at any time.</li>
+            <li>TO THE EXTENT PERMITTED BY THE APPLICABLE LAW, GRACENOTE DISCLAIMS ALL WARRANTIES EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. GRACENOTE DOES NOT WARRANT THE RESULTS THAT WILL BE OBTAINED BY YOUR USE OF THE GRACENOTE SOFTWARE OR ANY GRACENOTE SERVER. IN NO CASE WILL GRACENOTE BE LIABLE FOR ANY CONSEQUENTIAL OR INCIDENTAL DAMAGES OR FOR ANY LOST PROFITS OR LOST REVENUES. © 2000 – present. Gracenote, Inc. All Rights Reserved.</li>
+        </ul>
+    </li>
+
+    <li><p><em>Feedback.</em> We welcome and encourage you to provide feedback, comments and suggestions for improvements to the Software (whether written, verbal or in any other format or manner) ("<em>Feedback</em>"). You acknowledge and agree that all Feedback will be the sole and exclusive property of Perk and you hereby irrevocably assign to Perk and agree to irrevocably assign to Perk all of your right, title, and interest in and to all Feedback, including without limitation all worldwide patent rights, copyright rights, trade secret rights, and other proprietary or intellectual property rights therein. In jurisdictions where an assignment through this Agreement is not binding, you grant to Perks, in perpetuity, a world-wide, non-exclusive, sublicensable and transferable license to publish, display, reproduce, modify, edit or otherwise use all Feedback, in whole or in part, for any and all commercial purpose, purposes of trade, or for any other reason; and (ii) you hereby waive any and all moral rights in and to all Feedback.</p></li>
+    <li><p>When you install the Software, including the Perk mobile applications, browser add-on, or any other Perk program or mobile application, you are adding a whole new set of functions to your Phone, Web browser and tablet such as alerts and notifications. Once you install any of the Perk add-ons, you agree for ease of use it will be visible in your Web browser window whenever you are connected to the Internet. The Application functionality is dependent on our Software which is designed to help ensure that you never miss an opportunity to earn points, coupons or special deals. When you enter the URL of an Affiliate Store's web site into your browser with the Perk Service installed, Perk is designed to recognize the Affiliate Store's website to determine whether there are points and/or coupons available. If there are points and/or coupons available, you will see an alert on the Browser or Perk Add On. You will then need to click on the alert which will initiate your tracking ticket unless you specifically come from a Perk shopping-related link. The Perk currency indicator will turn the color green when you are eligible to earn points. Our Browser Application and Software are automatically updated regularly based on communications with our Affiliate Stores identified on our Site.</p></li>
+    <li><p>You may receive periodic updates to the Software that may include updates to our Affiliate Store database; and/or additions, changes or modifications to the Browser Add Ons, Application and Software; as well as the addition of other features that may enhance your browsing experience. We reserve the right to change, add to or discontinue any portion of our Add Ons, Browser Application, Software and our Affiliate Store database in any way, solely as a matter of our discretion. Please let us know of any questions, concerns or problems you have relating to the Software by contacting us <a href="http://www.perk.com">www.perk.com</a>.</p></li>
+    <li><p>We use cookies, web beacons, and other tracking technologies to collect information about you when you use this Software. Specifically, we collect your IP address, browser type, operating system, date and time of your visit, time spent on site, and/or browser referral headers.</p></li>
+    <li><p>We may obtain information about you, either individually, or in the aggregate, from other sources, such as third party partners and affiliates. For example, if you navigate to one of our Partner Stores on a device with the Perk Software and make a purchase, our Partner Store will notify us that you have made a transaction. As part of this notification, we will obtain the name of the Partner Store from which you made a purchase, the amount of the purchase, the date of the purchase, in some cases, a description of the item purchased, and your unique tracking ticket. The Partner Store does not provide us with any credit card information. We are not responsible for the accuracy of any information that we obtain from third parties.</p></li>
+    <li><p>You may also be eligible to earn points, tokens, or other virtual currency when searching on Perk Search, watching videos on Perk TV, unlocking your phone with Perk Screen, or playing games through Perk's game applications. Perk retains all rights, at its sole discretion, to suspend your account in the case that we think you are trying to game the system and abuse the program through 3rd party applications, forced actions and/or clicks, either manually or through any automated means. Rewards on search are awarded at random and we retain all rights to change any frequency or algorithms for rewarding searches at our sole discretion without notification to users.</p>
+    <li><p><em>User Conduct.</em> You agree that you will not engage in any activity that interferes with or disrupts the Software, Perk Browser, Apps, Sites or the Services (or the servers and networks which are connected to the Services) or use any service to manipulate your CPU to gain distinct advantage on any of our programs. If you are found in violation, your rewards will be cancelled and your account is subject to be banned.</p></li>
+    <li><p>Unless you have been specifically permitted to do so in a separate agreement with us, you agree that you will not reproduce, duplicate, copy, sell, trade or resell the Services for any purpose.</p></li>
+    <li><p>Please note that at any time, we may, in our sole discretion, terminate our legal agreement with you and deny you use of our Services if:</p>
+        <ol class="alpha">
+        <li>you have breached any provision of these terms (or have acted in manner which clearly shows that you do not intend to, or are unable to comply with the provisions of these terms); or</li>
+        <li>we are required to do so by law (for example, where the provision of our Services to you is, or becomes, unlawful); or</li>
+        <li>any partner with whom we offered the Services to you has terminated its relationship with us or ceased to offer their services to you; or</li>
+        <li>we are transitioning to no longer providing the Services to users in the country in which you are resident or from which you use the Services; or</li>
+        <li>the provision of the Services to you is, in our opinion, no longer commercially viable.</li>
+        <li>at any reason whatsoever; or if you have broken any of the terms in the Agreement herein.</li>
+        </ol>
+    </li>
+    <li><p>You further agree that your use of the Services shall be lawful and that you will comply with the usage rules. In furtherance of the foregoing, and as an example and not as a limitation, you agree not to use the Service in order to (all as determined in our sole and absolute discretion):</p>
+        <ul>
+        <li>post, upload, transmit or otherwise disseminate information that is obscene, indecent, vulgar, pornographic, sexual, hateful or otherwise objectionable</li>
+        <li>post spam links, and/or personal referral links in an aggressive, wanton, or otherwise inappropriate fashion both on Perk or on any other public site on the web</li>
+        <li>defame, libel, ridicule, mock, stalk, threaten, harass, intimidate or abuse anyone, hatefully, racially, ethnically or, in a reasonable person's view, an otherwise offensive or objectionable manner</li>
+        <li>upload or transmit (or attempt to upload or transmit) files that contain viruses, Trojan horses, worms, time bombs, cancelbots, corrupted files or data, or any other similar software or programs that may damage the operation of the Service, other users' computers, or the access to or functionality of the Perk services</li>
+        <li>violate the contractual, personal, intellectual property or other rights of any party including using, uploading, transmitting, distributing, or otherwise making available any information made available through the Service in any manner that infringes any copyright, trademark, patent, trade secret, or other right of any party (including rights of privacy or publicity)</li>
+        <li>attempt to obtain passwords or other private information from other members</li>
+        <li>improperly use support channels or complaint buttons to make false reports to Perk</li>
+        <li>develop, distribute, or publicly inform other members of "auto" software programs, "macro" software programs or other "cheat utility" software program or applications in violation of the applicable License Agreements</li>
+        <li>publicly inform other members or any other persons of any error, miscue or bug that gives an unintended advantage or exploit, or that violates any applicable laws or regulations</li>
+        <li>promote or encourage any illegal activity including, but not limited to, hacking, gaming, distribution of counterfeit software, or cheats for the Services</li>
+        </ul>
+    </li>
+    <li><p>Accounts that have not earned a Perk Point or Perk Token within 30 days or more are deemed inactive. Perk Points and Perk Tokens previously earned in these inactive accounts will be considered null and void. "Perk Points" and "Perk Tokens" are non-transferable and are void if a transfer is attempted. "Perk Points" , "Perk Tokens", and/or rewards do not have any monetary value, and may not be redeemed for cash, except where required by the applicable law. "Perk Points" , "Perk Tokens", and/or rewards may not be bartered or sold unless part of a Perk sponsored program. Perk Points, Perk Tokens, and Perk.com accounts are not transferable upon death or as part of a domestic relations matter or otherwise by operation of law unless required by applicable law.</p></li>
+    <li><p>Perk accounts that have earned over $600 in a calendar year are required by US law to fill out a 1099. Perk will notify users via the email address user has on file and it is then up to user to complete all obligations with respect to US Government. User gives up all claims against Perk regarding any tax related claims.</p></li>
+    <li><p>You further agree that Perk has the right at any time in its sole discretion to cancel and remove Perk Points or Perk Tokens if your account is found in violation of any of the terms held therein or for any reason at all in Perk’s sole discretion.</p></li>
+    <li><p>Members will not be reimbursed for lost or stolen rewards including Gift Cards and Prizes</p></li>
+    <li><p><em>Fair Usage Policy.</em> Perk reserves the right to cancel your account and block your IP if it has reasons to believe that you are using the Perk apps in a fraudulent manner in Perk’s sole discretion. If Perk detects unusual activity, we may require you to provide identification or other means of verification in order to verify the authenticity of your account including the number of devices registered to your account, the number of referrals you’ve invited, and the number of people in your household.</p></li>
+    <li><p>It is against these terms of service to earn through the applications without any user activity for any extensive period of time determined in Perk’s sole discretion.</p></li>
+    <li><p>Any user generated content submitted through email, Perk apps, or social media constitutes Feedback subject to clause 12 and as set out in that clause, becomes property of Perk and can be used in Perk's marketing efforts. User releases all rights to said content.</p></li>
+    <li><p><em>Notification with respect to Children's Privacy (Users under the age of 13)</em></p>
+        <p>In response to concerns about protecting children's privacy online, Congress enacted the Children's Online Privacy Protection Act of 1998 ("COPPA"), which sets forth rules and procedures governing the ways in which Web sites may collect, use and disclose any personal information for children under the age of 13. In accordance with the Company policy and COPPA regulations, we DO NOT:
+        <ol>
+        <li>Request or knowingly collect personally identifiable information online or offline contact information from users under 13 years of age; or</li>
+        <li>Knowingly use or share personal information from users under 13 years of age with third parties;</li>
+        </ol>
+    </p></li>
+    <li><p>We request that children under the age of 13 not submit any Personal Information to us via the Perk.com Services. It is possible that by fraud or deception we may receive information given to us or pertaining to children under 13. If we are notified of this, as soon as we verify the information, we will immediately delete the information from our servers. <em>All points or tokens earned by a member who is later identified as being in violation of these terms will be removed from the account.</em>  Questions regarding children's privacy should be directed to: <a href="mailto:support@perk.com">support@perk.com</a></p></li>
+    <li><em>Confidentiality.</em> At times, we may make available to you pre-release versions of the Software. All the terms of this Agreement apply to such pre-release versions of the Software. In addition these pre-release versions are not for use by the general public or any person not participating in the pre-release program and subject to this Agreement.</li>
+    <li><em>Term.</em> The license to the Software granted under these Terms of Service remains in effect for a period of 75 years, unless earlier terminated by you or Perk in accordance with this provision. You may terminate the license at any time by destroying all copies of the Software in your possession or control. The license granted under this Agreement will automatically terminate, with or without notice from Perk, if you breach any term of this Agreement. Upon termination, you must cease all use of the Software and promptly destroy all copies of the Software in your possession or control.</li>
+    <li><em>Changes to this Agreement.</em> Perk reserves the right, at its sole discretion and at any time, to modify this Agreement or any portion thereof, at any time and without prior notice. If we modify this Agreement, we will post the modification on our Web site or provide you with notice of the modification. By continuing to access or use the Software after we have posted a modification on the Web site or have provided you with notice of a modification, you are indicating that you agree to be bound by the modified agreement. If the modified Agreement is not acceptable to you, your only option is to stop using the Software and uninstall it from any computers or devices on which you have it installed.</li>                                  
+    <li><em>No Warranty; Disclaimer.</em> To the maximum extent permitted by applicable law, the Software is provided "AS IS", and “AS AVAILABLE”, without warranty of any kind. TO THE MAXIMUM EXTENT ALLOWED BY APPLICABLE LAW, Perk EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES AND CONDITIONS OF ACCURACY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT, AND ANY WARRANTIES AND CONDITIONS ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM Perk OR ELSEWHERE WILL CREATE ANY WARRANTY OR CONDITION NOT EXPRESSLY STATED IN THIS AGREEMENT.</li>                                   
+    <li><em>Limitation of Liability.</em> TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW YOU EXPRESSLY UNDERSTAND AND AGREE THAT PERK AND ITS SUBSIDIARIES’ AND AFFILIATES’, AND ITS LICENSORS’ (“PERK PARTIES”) TOTAL LIABILITY TO YOU FROM ALL CAUSES OF ACTION AND UNDER ALL THEORIES OF LIABILITY WILL BE LIMITED TO THE AMOUNTS PAID TO PERK BY YOU FOR THE SOFTWARE OR, IN THE EVENT THAT PERK HAS MADE THE SOFTWARE AVAILABLE TO YOU WITHOUT CHARGE, ANY SUCH TOTAL LIABILITY WILL BE LIMITED TO TWENTY DOLLARS ($20). IN NO EVENT WILL PERK BE LIABLE TO YOU FOR ANY SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF USE, DATA, BUSINESS, PROFITS OR ABILITY TO EXECUTE) OR FOR THE COST OF PROCURING SUBSTITUTE PRODUCTS ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE EXECUTION OR PERFORMANCE OF THE SOFTWARE, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, AND WHETHER OR NOT Perk HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE. THE FOREGOING LIMITATIONS WILL SURVIVE AND APPLY EVEN IF ANY LIMITED REMEDY SPECIFIED IN THIS AGREEMENT IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.</li>
+    <li>You agree to indemnify and hold harmless the Perk Parties from and against all claims, actions, demands, liabilities, costs, and expenses. Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, so the above limitations or exclusions may not apply to you.</li>
+    <li><em>Government Users.</em> The Software and accompanying documentation are "commercial computer software" and "commercial computer software documentation", respectively, as such terms are used in FAR 12.212. Any use, duplication or disclosure of the Software or the Documentation by or on behalf of the U.S. Government is subject to restrictions as set forth in this Agreement.</li>
+    <li><em>Export Law.</em> You agree to comply fully with all U.S. export laws and regulations to ensure that neither the Software nor any technical data related thereto nor any direct product thereof are exported or re-exported directly or indirectly in violation of, or used for any purposes prohibited by, such laws and regulations. By using the Software, you represent and warrant that (i) your are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist supporting" country; and (ii) you are is not listed on any U.S. Government list of prohibited or restricted parties.</li>
+    <li><em>General.</em> This Agreement will be governed by and construed in accordance with the laws of the State of Texas, without regard to or application of conflicts of law rules or principles. The United Nations Convention on Contracts for the International Sale of Goods will not apply. You may not assign or transfer this Agreement or any rights granted hereunder, by operation of law or otherwise, without Perk’s prior written consent, and any attempt by you to do so, without such consent, will be void and of no effect. Except as expressly set forth in this Agreement, the exercise by either party of any of its remedies under this Agreement will be without prejudice to its other remedies under this Agreement or otherwise. All notices or approvals required or permitted under this Agreement will be in writing and delivered by electronic mail, confirmed facsimile transmission, by overnight delivery service, or by certified mail, and in each instance will be deemed given upon receipt. All notices or approvals will be sent to the email address we have on record for you (if any) for notices directed to you, or to support@perk.com for notices directed to Perk. The failure by either party to enforce any provision of this Agreement will not constitute a waiver of future enforcement of that or any other provision. Any waiver, modification or amendment of any provision of this Agreement will be effective only if in writing and signed by authorized representatives of both parties. If any provision of this Agreement is held to be unenforceable or invalid, that provision will be enforced to the maximum extent possible and the other provisions will remain in full force and effect. This Agreement is the complete and exclusive understanding and agreement between the parties regarding its subject matter, and supersedes all proposals, understandings or communications between the parties, oral or written, regarding its subject matter, unless you and Perk have executed a separate agreement.</li>
+    <li><em>Contact Information.</em> If you have any questions regarding this Agreement, you may contact Perk at <a href="mailto:support@perk.com">support@perk.com</a>. Our mailing address is: 720 Brazos, Suite 110, Austin, TX 78701</li>
+</ol>
+
+<p>IF YOU DO NOT AGREE TO THE FOREGOING TERMS AND CONDITIONS YOU MAY NOT USE THE SOFTWARE AND YOU MUST UNINSTALL IT FROM ANY COMPUTERS OR DEVICES UPON WHICH YOU MAY HAVE DOWNLOADED OR INSTALLED THE SOFTWARE.</p>        </div><!-- End .content -->
+    </div><!-- End .wrapper -->
+    
+    <div class="clear"></div>
+
+    <!-- popup content -->
+<div class="popup-overlay"></div>
+<div class="popup">
+	<div class="wrap">
+		<div class="popup-close" id="popup_close">&times;</div>
+		<div class="popup-loader" id="popup_loader">Loading... Please Wait</div>
+		<!-- Rendered from ajax calls -->
+		<div class="popup-content" id="popup_content" style="">
+					</div>
+	</div>
+</div>    
+    <!-- Text me a Link -->
+    <div class="text-me-overlay">
+        <div class="rewards-box">
+            <div class="points-left"></div>
+            <div class="popup-close">&times;</div>
+            <h2>Start getting rewarded today!</h2>
+            <h4>Text yourself a link to the mobile app</h4>
+            <form action="#">
+                <input type="tel" id="sms_phone_number" placeholder="(xxx) xxx-xxxx" />
+                <button>Text Me A Link!</button>
+            </form>
+            <div class="link-sent">
+                <p>We’ve sent a link to your phone.</p>
+                <a href="#">Send to another number</a>
+            </div>
+            <a target="_blank" href="https://play.google.com/store/apps/developer?id=Perk&amp;hl=en" class="btn play">Google Play</a>
+            <a target="_blank" href="https://itunes.apple.com/us/artist/jutera/id350411562" class="btn store">App Store</a>
+            <div class="tokens-set"></div>
+        </div>
+    </div>
+    
+    <section class="message">
+        <div class="wrapper">
+            <div id="carousel">
+                <div class="btn-bar">
+                  <div id="buttons">
+                    <a id="prev" href="#"></a>
+                    <a id="next" href="#"></a> 
+                  </div>
+                </div>
+                <div id="slides">
+                    <ul>
+                        <li class="slide">Priscilla R. won $50 using Perk Unlock and Win!</li>
+                        <li class="slide">Susan T. won a $25 Amazon.com Gift Card in Perk Prize Mob!</li>
+                        <li class="slide">Jennifer B. won $10 playing Perk Word Search!</li>
+                        <li class="slide">Timothy M. won $1000 playing Perk Sweepstakes!</li>
+                        <li class="slide">Joe M. won a $500 Walmart Gift Card playing Perk Sweepstakes!</li>
+                        <li class="slide">Daily F. won $50 playing Perk Scratch & Win!</li>
+                        <li class="slide">Kym G. won $50 playing Perk Scratch & Win!</li>
+                        <li class="slide">Allene T. won $50 playing Perk Scratch & Win!</li>
+                        <li class="slide">KJ K. won a $10 Amazon.com Gift Card playing Jetpack Journey!</li>
+                        <li class="slide">Joshua M. won a $10 Amazon.com Gift Card playing Jetpack Journey!</li>
+                        <li class="slide">Anthony T. won a $10 Amazon.com Gift Card playing Jetpack Journey!</li>
+                        <li class="slide">April A. won $100 playing Perk Scratch & Win!</li>
+                        <li class="slide">Becky S. won $500 playing Perk Sweepstakes!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clear"></div>
+
+    <footer>
+       
+        <div class="wrapper">
+            <img src="https://cdn2.perk.com/htmlperk/perktemplate/images/perk-logo.png" alt="" class="perk-logo">
+            <div class="col1 first">
+                <div class="header">Perk</div>               
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/media">Perk Media</a></li>
+                    <li><a href="http://ir.perk.com" target="_blank">Investors</a></li>
+                    <li><a href="http://press.perk.com" target="_blank">Press</a></li>
+                </ul>
+            </div>
+            <div class="col1">
+                <div class="header">Earn</div>               
+                <ul>
+                    <li><a href="/apps">Our Apps</a></li>
+                    <li><a href="/home">Search</a></li>
+                    <li><a href="/offers">Offers</a></li>
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/perk/refer_friends">Invite</a></li>
+                </ul>
+            </div>
+            <div class="col1">
+                <div class="header">Connect</div>               
+                <ul>
+                    <li><a href="http://support.perk.com/anonymous_requests/new">Contact Us</a></li>
+                    <li><a href="/ads">Advertise</a></li>
+                    <li><a href="https://search.perk.com/partner">Partner</a></li>
+                </ul>
+                <div class="header">Support</div>               
+                <ul>
+                    <li><a href="http://support.perk.com/" target="_blank">Help Center</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="col2">
+                <div class="header">Follow Us</div>
+                <ul>
+                    <li class="fb"><a href="https://www.facebook.com/GetPerk" target="_blank"></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/user/GetPerk" target="_blank"></a></li>
+                    <li class="twitter"><a href="https://twitter.com/getperk" target="_blank"></a></li>
+                    <li class="instagram"><a href="http://instagram.com/perkrewards" target="_blank"></a></li>
+                    <li class="linkedin"><a href="http://www.linkedin.com/company/perk-com" target="_blank"></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="footer-info">
+                <p>Made with <img src="https://cdn2.perk.com/htmlperk/perktemplate/images/heart.png" alt=""> in Austin, Bangalore and Waterloo.<span>Copyright © 2016 Perk.com</span></p>
+        </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $('.login').click(function (e) {
+            e.preventDefault();
+            $('#signup_box').hide();
+            $('#login_box').show();
+            $('#overlay').fadeIn();
+        });
+        $('.signup').click(function (e) {
+            e.preventDefault();
+            $('#login_box').hide();
+            $('#signup_box').show();
+            $('#overlay').fadeIn();
+        });
+    </script>
+    <script type="text/javascript">
+        var PERK = new Perk();
+        PERK.refreshCurrency('');
+        $('#total_tokens, #total_points').click(function () {
+            PERK.refreshCurrencyOnRequest('');
+        });
+        PERK.branchSMS();
+    </script>
+    <script type="text/javascript">
+
+/**
+ * Kills user session on v2
+ */
+ function killUserSession() {
+	 $.ajax({
+			url: "https://v2.perk.com/authentication/oauth2/session?state=logout",
+			type: 'GET',
+			cache: false,
+			crossDomain: true,
+			withCredentials: false,
+			success: function(data){
+     		console.log('Session kill success');
+  		}
+		});
+	}
+	/**
+	 * Does API POST for authorize login
+	 * @param  {Object} loginData
+	 * @param  {boolean} isFormLogin
+	 * @return {void}
+	 */
+	 function loginAPICall(loginData, isFormLogin) {
+		 $.ajax({
+			 url: getProtocol() + "//web-api.perk.com/v2/authentication/login",
+			 type: 'POST',
+			 cache: false,
+			 crossDomain: true,
+			 withCredentials: true,
+			 dataType: 'json',
+			 data:  loginData
+		 }).done(function( data, textStatus, jqXHR ) {
+			 if (isFormLogin) {
+				 $(".auth_loading").css('display','none');
+				 $("#signup-submit").css('display','block');
+				 $(".res-cont-sent").css('display','none');
+
+				 // reloading the captcha if response returns error
+				 if(typeof data.message != 'undefined' && data.message != null) {
+					 $("#login_box #login-form-error span").html(data.message);
+					 $("#login_box #login-form-error").css('display', 'block');
+				 } else {
+					 $("#login_box #login-form-error").css('display', 'none');
+				 }
+		 	 }
+
+			 if (typeof(data.status) != 'undefined' && data.status == "success") {
+				 loginRedirect(data.data.token.access_token, data.data.token.refresh_token, data.data.token.expires_in);
+			 }
+		 }).fail(function( jqXHR, textStatus ) {
+			 console.log('eror here - textStatus is ' + textStatus + ' and jqXHR is ' + JSON.stringify(jqXHR));
+
+			 if (isFormLogin) {
+				 var response_status_code = jqXHR.status;
+				 var response_text = jqXHR.responseText;
+				 var response_text_json = JSON.parse(response_text);
+         var response_text_data = response_text_json.data;
+         var response_text_type = response_text_data.error_type
+         var response_text_error = response_text_json.message;
+
+         if(response_status_code === 403 && response_text_type === "suspended_account") {
+           response_text_error = "We're sorry, this account has been suspended. If you have any questions, please contact Perk Customer Support.";
+					 killUserSession();
+				 }
+
+				 if(typeof response_text_error !== 'undefined' && response_text_error !== null) {
+					 $("#login_box #login-email-error span").html(response_text_error);
+					 $("#login_box #login-email-error").css('display', 'block');
+				 } else {
+					 $("#login_box #login-email-error").css('display', 'none');
+				 }
+		 	 }
+		 });
+	 }
+
+	function loginRedirect(accessToken, refreshToken, expiresIn) {
+		if(accessToken !== "" && refreshToken !== "" && expiresIn !== "") {
+			var redirect = "https://v2.perk.com/authentication/oauth2/session?access_token=" + accessToken + "&refresh_token=" + refreshToken + "&expires_in=" + expiresIn + "&state=login";
+			window.location = redirect;
+		}
+	}
+
+	var PASSWORDMETER = new PasswordMeter();
+	$(document).ready(function(){
+		PASSWORDMETER.init('#sign-pass', {width: '270px'});
+	});
+
+	var checkConfirmPassword = function (pass, confirmPass) {
+		if (confirmPass == '') {
+			$('#password-conf-error span').text('Invalid Confirm Password!');
+			$('#password-conf-error').show();
+			return false;
+		} else if (confirmPass != pass) {
+			$('#password-conf-error span').text('Password & Confirm Password do not match!');
+			$('#password-conf-error').show();
+			return false;
+		} else {
+			$('#password-conf-error').hide();
+			return true;
+		}
+	}
+
+	$(document).ready(function() {
+		$('.password-strength-message').hide();
+        
+        
+        			$('#login_box').on('click', '.notamember', function(e){
+				e.preventDefault();
+				$('#login_box').hide();
+				$('#signup_box').fadeIn();
+			});
+
+			$('#signup_box').on('click', '.already_amember', function(e){
+				e.preventDefault();
+				$('#signup_box').hide();
+				$('#login_box').fadeIn();
+			});
+
+			// closes login, signup overlay
+			$('#login_box, #signup_box').on('click', '.close', function (e) {
+				$('#overlay').fadeOut();
+			});
+
+			$("#signup_box").on("submit", "form", function(e) {
+				e.preventDefault();
+		    $(".auth_loading").css('display', 'block');
+		    $('.password-strength-message').hide();
+
+				// checking for confirmation password
+				var confirm_pass = $('#conf-pass').val();
+				var pass = $("#sign-pass").val();
+				var canSignUp = checkConfirmPassword(pass, confirm_pass);
+				if (canSignUp === false) {
+					return false;
+				}
+
+				var isValid = validateEmailAndPassword($("#sign-email").val(), $("#sign-pass").val());
+				if(isValid == false) {
+					return false;
+				}
+
+				if(!PASSWORDMETER.passwordComplexity){
+					$('.password-strength-message').show();
+					return false;
+				}
+				//Form registration
+				$.ajax({
+					url: "https://auth.perk.com/register",
+					type: 'POST',
+					crossDomain: true,
+					cache: false,
+					data: {
+						email: $("#signup_box #sign-email").val(),
+						password: $("#signup_box #sign-pass").val(),
+						password_confirmation: $("#signup_box #conf-pass").val(),
+						product_identifier:"perk_web"
+					},
+					beforeSend: function() {
+						$("#signup_box #signup-submit").css('display','none');
+						$("#signup_box .res-cont-sent").css('display','block');
+					}
+				}).done(function( data, textStatus, jqXHR ) {
+
+					$("#signup_box #signup-submit").css('display','block');
+					$("#signup_box .res-cont-sent").css('display','none');
+
+					console.log("Done response and json - response is " + JSON.stringify(jqXHR) + ' and textStatus is ' + textStatus);
+					if(textStatus == "success" && jqXHR.status == '200' && jqXHR.statusText == "OK") {
+						var loginData = {
+							grant_type: "password",
+							username: $("#signup_box #sign-email").val(),
+							password: $("#signup_box #sign-pass").val(),
+							product_identifier: "perk_web"
+						};
+
+            //Post-registration login
+						loginAPICall(loginData, false);
+					}
+				}).fail(function( jqXHR, textStatus ) {
+					$(".auth_loading").css('display', 'none');
+					$("#signup_box #signup-submit").css('display','block');
+					$("#signup_box .res-cont-sent").css('display','none');
+
+					var response_text = jqXHR.responseText;
+					response_text_json = JSON.parse(response_text);
+					var response_text_error = response_text_json.message;
+
+					if(typeof response_text_error != 'undefined') {
+						$("#signup_box #email-error span").html(response_text_error);
+						$("#signup_box #email-error").css('display', 'block');
+					} else {
+						$("#signup_box #email-error").css('display', 'none');
+					}
+					console.log("Request failed: " + textStatus + ' and error is ' + JSON.stringify(jqXHR));
+				});
+
+				return false;
+			});
+
+			$("#login_box").on("submit", "form", function(e) {
+					e.preventDefault();
+					// Client side validation. No AJAX call if this doesn't pass.
+          	var loginValidation = validateEmailLogin(
+              $("#login_box #login-email").val(),
+              $("#login_box #login-pass").val()
+          	);
+						var parsedValidation = JSON.parse(loginValidation);
+          	if(parsedValidation.isValid == false) {
+              if(parsedValidation.emailErrorMessage != '') {
+                $("#login_box #login-email-error span").html(parsedValidation.emailErrorMessage);
+                $("#login_box #login-email-error").css('display', 'block');
+              } else {
+                $("#login_box #login-email-error").css('display', 'none');
+              }
+
+              if(parsedValidation.passwordErrorMessage != '') {
+                $("#login_box #login-password-error span").html(parsedValidation.passwordErrorMessage);
+                $("#login_box #login-password-error").css('display', 'block');
+              } else {
+                $("#login_box #login-password-error").css('display', 'none');
+              }
+              return false;
+            }
+						//Begin v2 Login
+						var loginData = {
+								grant_type: "password",
+								username: $("#login_box #login-email").val(),
+								password: $("#login_box #login-pass").val(),
+								product_identifier: "perk_web"
+						};
+
+            //Form login
+						loginAPICall(loginData, true);
+						return false;
+			});
+	});
+
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : "211055039020468",
+			version    : 'v2.2',
+			status     : true, // check the login status upon init?
+			cookie     : true, // set sessions cookies to allow your server to access the session?
+			xfbml      : true  // parse XFBML tags on this page?
+		});
+	};
+
+	function fbLogoutUser() {
+		FB.getLoginStatus(function(response) {
+			if (response && response.status === 'connected') {
+					FB.logout(function(response) {
+							document.location.reload();
+					});
+			}
+		});
+	}
+
+	function facebookLogin() {
+		FB.login(function(response) {
+			if (response.authResponse) {
+					var loginData = {
+							grant_type: "social",
+							network: "facebook",
+							access_token: response.authResponse.accessToken,
+							product_identifier: "perk_web"
+					};
+          //FB login
+					loginAPICall(loginData, true);
+				} else {
+				 console.log('User cancelled login or did not fully authorize.');
+				}
+		}, {scope : 'public_profile, email'});
+	}
+
+	function facebookRegister() {
+		FB.login(function(response) {
+			if (response.authResponse) {
+				FB.api('/me', function(res) {
+					response.access_token = response.authResponse.accessToken;
+					response.fb_user_id = res.id;
+					window.fb_user_id = res.id;
+
+					var loginData =  {
+                client_id: "perk_web",
+                grant_type: "social",
+                network: "facebook",
+                access_token: response.authResponse.accessToken,
+                product_identifier: "perk_web"
+            };
+
+						loginAPICall(loginData, false);
+				});
+			}
+		}, {scope : 'public_profile, email'});
+	}
+
+	// Load the SDK asynchronously
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	/**
+	 * Sends out auth messages required to log user in
+	 * @param  {string} action
+	 * @param  {object} data
+	 */
+	var sendAuthMessages = function (action, data) {
+		// mesage to add-ons
+		window.postMessage({ action: action }, document.location.href);
+	};
+
+	/**
+	 * gives dynamic protocol for dev
+	 * @return {string}
+	 */
+	 var getProtocol = function () {
+		return window.location.protocol;
+ 	 };
+</script>
+<section id="overlay" style="display: none;">
+		<div class="modal">
+            <div class="login_box" id="login_box" style="display: none;">
+                <a class="close" href="#"></a>
+                <a class="notamember" href="#">Not a member?</a>
+                <form>
+                    <ul>
+                        <li class="main_heading">Log In</li>
+                            <li><a href="#" class="facebook" onclick="facebookLogin();">Log In with Facebook</a></li>
+                            <li class="heading">or sign in with your email</li>
+                            <li>
+                                <div style="display:none;" id="login-email-error" class="signup-error"><span></span></div>
+                                <input type="text" id="login-email" placeholder="Email">
+                            </li>
+                            <li>
+                                <div style="display:none;" id="login-password-error" class="signup-error"><span></span></div>
+                                <input type="password"  id="login-pass" class="password" placeholder="Password" autocomplete="off">
+                                <div style="display: none;" id="login-form-error" class="signup-error"><span></span></div>
+                            </li>
+
+                            <!-- Adding captcha for login form -->
+                            <li id="recaptcha-html" style="margin-bottom:15px; width: 100% !important; display:none">
+                                <script type="text/javascript"> var RecaptchaOptions = { theme:"red", lang:"en",  }; </script>
+        		<script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LdfbwUTAAAAAG33L7yEojdFazshHnY0gLVigARv"></script>
+
+            <noscript>
+                    <iframe src="https://www.google.com/recaptcha/api/noscript?k=6LdfbwUTAAAAAG33L7yEojdFazshHnY0gLVigARv" height="300" width="500" frameborder="0"></iframe><br/>
+                    <textarea id="recaptcha_challenge_field" name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                    <input type="hidden" id="recaptcha_response_field" name="recaptcha_response_field" value="manual_challenge"/>
+            </noscript>                            </li>
+
+                            <li>
+                                <input type="submit" class="button" value="Log In">
+                                <span style="display: none;" class="auth_loading"></span>
+                            </li>
+                        <li><a class="forgot_pass" href="/accounts/reset_new_password" target="_blank">Forgot password?</a></li>
+                    </ul>
+                </form>
+                <span class="clear"></span>
+            </div>
+
+	    	<div class="signup_box" id="signup_box" style="display: none;">
+	        <a class="close" href="#"></a>
+	        <a class="already_amember" href="#">Already a member?</a>
+	        <span class="main_heading">Sign Up</span>
+	            <form>
+	                <div class="use_facebook">
+	                <span class="sub_heading">Use Facebook</span>
+	                    <ul>
+                            <li><a href="#" class="facebook" onclick="facebookRegister();">Sign Up with Facebook</a></li>
+	                    </ul>
+	                </div>
+
+                    <div class="use_youremail">
+                    <span class="sub_heading">Use your Email</span>
+                        <ul>
+                                <li>
+                                    <div class="signup-error" id="email-error" style="display:none;"><span></span></div>
+                                    <input type="text" placeholder="Email" id="sign-email">
+                                </li>
+                                <li>
+                                    <div class="signup-error" id="password-error" style="display:none;"><span></span></div>
+                                    <input type="password" class="password" placeholder="Password" id="sign-pass" autocomplete="off">
+                                </li>
+                                <li>
+                                    <div class="signup-error" id="password-conf-error" style="display:none;"><span></span></div>
+                                    <input type="password" class="password" placeholder="Confirm Password" id="conf-pass" autocomplete="off">
+                                    <div style="display:none;" id="form-error" class="signup-error"><span></span></div>
+                                </li>
+                                <li>
+                                	<div class="password-strength-container">
+											  						<div class="password-strength-value">
+											  						</div>
+											  					</div>
+											  					<div class="message signup-error hide password-strength-message" style="padding: 10px 0 0;">
+											  						<span>Password must be 8 characters including uppercase letter, lowercase letter and at least one number.</span>
+																</div>
+                                </li>
+                                <li><input type="submit" class="button" value="FREE!  Sign Up Now!"></li>
+                        </ul>
+                    </div>
+	                <span class="terms">By signing up you agree to our <a href="/terms">Terms &amp; Conditions.</a> | <a href="/privacy">Privacy</a></span>
+                </form>
+            </div>
+        </div>
+</section>
+</body>
+</html>
+
